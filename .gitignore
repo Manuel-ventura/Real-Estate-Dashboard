@@ -1,0 +1,25 @@
+# Ignore the virtual environment folder
+env/
+.env/
+venv/
+
+# Ignore node_modules folder
+node_modules/
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore other unnecessary files
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.sqlite3
+
+# Ignore configuration and secret files
+.env
+.vercel
