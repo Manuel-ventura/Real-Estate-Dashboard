@@ -1,25 +1,18 @@
-# Ignore the virtual environment folder
+# Virtual environment
 env/
-.env/
-venv/
+aws-eb-env/
 
-# Ignore node_modules folder
-node_modules/
+# Editor configuration files
+.vscode/
 
-# Ignore compiled Python files
-*.pyc
+# Cache files
 __pycache__/
 
-# Ignore Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+# Elastic Beanstalk files
+.elasticbeanstalk/
 
-# Ignore other unnecessary files
-.DS_Store
-.idea/
-.vscode/
+# Log files
 *.log
-*.sqlite3
 
-# Ignore configuration and secret files
-.env
-.vercel
+# Temporary files
+*.tmp

@@ -3,3 +3,6 @@ dash-bootstrap-components
 plotly
 pandas
 joblib
+scikit-learn
+statsmodels
+gunicorn
